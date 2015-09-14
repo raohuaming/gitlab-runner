@@ -6,7 +6,7 @@ RUN curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
 RUN apt-get install -y \
   nodejs \
   python2.7 \
-  build-essential \
+  build-essential
 
 RUN npm install -g strongloop
 RUN npm install -g gulp
